@@ -1,0 +1,27 @@
+﻿body {
+    background-color: darkgoldenrod;
+    font-family: 'Russo One', sans-serif;
+}
+
+h1 {
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    background-color: navajowhite;
+    font-size: 2.2rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+
+#WindD {
+    position: absolute;
+    top: 80px;
+    font-family: 'Righteous', cursive;
+}
