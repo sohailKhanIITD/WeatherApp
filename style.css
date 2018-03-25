@@ -21,7 +21,6 @@ p {
 
 
 #WindD {
-    position: absolute;
-    top: 80px;
+    text-align:center;
     font-family: 'Righteous', cursive;
 }

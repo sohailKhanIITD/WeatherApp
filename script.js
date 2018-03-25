@@ -59,14 +59,12 @@ function weatherCallBack(weatherData) {
     p1.style.paddingLeft = (width / 2 - 164) + 'px';
     p3.style.paddingLeft = (width / 2 - 164) + 'px';
     p4.style.paddingLeft = (width / 2 - 164) + 'px';
-
-    p5.style.paddingLeft = (width / 2 - 57) + 'px';
+    
     img.style.transform = 'rotate(' + windDir + 'deg)';
 };
 
 $(window).resize(function () {
     width = window.innerWidth;
-    p5.style.paddingLeft = (width / 2 - 57) + 'px';
     p2.style.paddingLeft = (width / 2 - 164) + 'px';
     p1.style.paddingLeft = (width / 2 - 164) + 'px';
     p3.style.paddingLeft = (width / 2 - 164) + 'px';
